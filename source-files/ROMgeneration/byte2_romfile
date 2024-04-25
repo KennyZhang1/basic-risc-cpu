@@ -1,0 +1,18 @@
+#Byte 2 ROM file. Automatically generated on 17:42:11 30 Apr, 2023
+#Input file: xor_test.txt
+
+#address / data ;
+#----------------
+0/40;
+1/80;
+2/c2;
+3/c0;
+4/00;
+5/40;
+6/80;
+7/c0;
+8/08;
+9/4e;
+a/08;
+b/00;
+c/00;

@@ -1,0 +1,242 @@
+# Reading pref.tcl
+# do CPU_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vcom -2008 -work work {C:/Users/kzhan/Documents/Spring 2023/ECE Comp Arch/Lab 4/opcode_decoder.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:42:49 on Apr 30,2023
+# vcom -reportprogress 300 -2008 -work work C:/Users/kzhan/Documents/Spring 2023/ECE Comp Arch/Lab 4/opcode_decoder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity opcode_decoder
+# -- Compiling architecture rtl of opcode_decoder
+# End time: 17:42:49 on Apr 30,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {C:/Users/kzhan/Documents/Spring 2023/ECE Comp Arch/Lab 4/control_signals_logic.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:42:49 on Apr 30,2023
+# vcom -reportprogress 300 -2008 -work work C:/Users/kzhan/Documents/Spring 2023/ECE Comp Arch/Lab 4/control_signals_logic.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity control_signals_logic
+# -- Compiling architecture rtl of control_signals_logic
+# End time: 17:42:49 on Apr 30,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {C:/Users/kzhan/Documents/Spring 2023/ECE Comp Arch/Lab 6/ControlUnit.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:42:49 on Apr 30,2023
+# vcom -reportprogress 300 -2008 -work work C:/Users/kzhan/Documents/Spring 2023/ECE Comp Arch/Lab 6/ControlUnit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity ControlUnit
+# -- Compiling architecture bdf_type of ControlUnit
+# End time: 17:42:49 on Apr 30,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {C:/Users/kzhan/Documents/Spring 2023/ECE Comp Arch/Lab 6/Datapath.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:42:49 on Apr 30,2023
+# vcom -reportprogress 300 -2008 -work work C:/Users/kzhan/Documents/Spring 2023/ECE Comp Arch/Lab 6/Datapath.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Datapath
+# -- Compiling architecture bdf_type of Datapath
+# End time: 17:42:49 on Apr 30,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {C:/Users/kzhan/Documents/Spring 2023/ECE Comp Arch/Lab 5/shift_control.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:42:49 on Apr 30,2023
+# vcom -reportprogress 300 -2008 -work work C:/Users/kzhan/Documents/Spring 2023/ECE Comp Arch/Lab 5/shift_control.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity shift_control
+# -- Compiling architecture rtl of shift_control
+# End time: 17:42:49 on Apr 30,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {C:/Users/kzhan/Documents/Spring 2023/ECE Comp Arch/Lab 5/sequencer.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:42:49 on Apr 30,2023
+# vcom -reportprogress 300 -2008 -work work C:/Users/kzhan/Documents/Spring 2023/ECE Comp Arch/Lab 5/sequencer.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity sequencer
+# -- Compiling architecture rtl of sequencer
+# End time: 17:42:49 on Apr 30,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {C:/Users/kzhan/Documents/Spring 2023/ECE Comp Arch/Lab 5/con_logic.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:42:49 on Apr 30,2023
+# vcom -reportprogress 300 -2008 -work work C:/Users/kzhan/Documents/Spring 2023/ECE Comp Arch/Lab 5/con_logic.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity con_logic
+# -- Compiling architecture rtl of con_logic
+# End time: 17:42:50 on Apr 30,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {C:/Users/kzhan/Documents/Spring 2023/ECE Comp Arch/Lab 3/alu.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:42:50 on Apr 30,2023
+# vcom -reportprogress 300 -2008 -work work C:/Users/kzhan/Documents/Spring 2023/ECE Comp Arch/Lab 3/alu.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity alu
+# -- Compiling architecture rtl of alu
+# End time: 17:42:50 on Apr 30,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {C:/Users/kzhan/Documents/Spring 2023/ECE Comp Arch/Lab 2/register_file.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:42:50 on Apr 30,2023
+# vcom -reportprogress 300 -2008 -work work C:/Users/kzhan/Documents/Spring 2023/ECE Comp Arch/Lab 2/register_file.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity register_file
+# -- Compiling architecture rtl of register_file
+# End time: 17:42:50 on Apr 30,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {C:/Users/kzhan/Documents/Spring 2023/ECE Comp Arch/Lab 1/Instruction Register/instruction_register.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:42:50 on Apr 30,2023
+# vcom -reportprogress 300 -2008 -work work C:/Users/kzhan/Documents/Spring 2023/ECE Comp Arch/Lab 1/Instruction Register/instruction_register.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity instruction_register
+# -- Compiling architecture rtl of instruction_register
+# End time: 17:42:50 on Apr 30,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {C:/Users/kzhan/Documents/Spring 2023/ECE Comp Arch/Lab 1/Program Counter/program_counter.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:42:50 on Apr 30,2023
+# vcom -reportprogress 300 -2008 -work work C:/Users/kzhan/Documents/Spring 2023/ECE Comp Arch/Lab 1/Program Counter/program_counter.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity program_counter
+# -- Compiling architecture rtl of program_counter
+# End time: 17:42:50 on Apr 30,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {C:/Users/kzhan/Documents/Spring 2023/ECE Comp Arch/Lab 6/CPU.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:42:50 on Apr 30,2023
+# vcom -reportprogress 300 -2008 -work work C:/Users/kzhan/Documents/Spring 2023/ECE Comp Arch/Lab 6/CPU.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity CPU
+# -- Compiling architecture bdf_type of CPU
+# End time: 17:42:50 on Apr 30,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {C:/Users/kzhan/Documents/Spring 2023/ECE Comp Arch/Lab 6/memory_interface.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:42:50 on Apr 30,2023
+# vcom -reportprogress 300 -2008 -work work C:/Users/kzhan/Documents/Spring 2023/ECE Comp Arch/Lab 6/memory_interface.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity memory_interface
+# -- Compiling architecture Rtl of memory_interface
+# End time: 17:42:50 on Apr 30,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+do testbench.do
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:43:01 on Apr 30,2023
+# vcom -reportprogress 300 -2008 -work work C:/Users/kzhan/Documents/Spring 2023/ECE Comp Arch/Lab 6/clock_reset_start.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity clock_reset_start
+# -- Compiling architecture rtl of clock_reset_start
+# End time: 17:43:01 on Apr 30,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:43:01 on Apr 30,2023
+# vcom -reportprogress 300 -2008 -work work C:/Users/kzhan/Documents/Spring 2023/ECE Comp Arch/Lab 6/memory_bus_controller.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity memory_bus_controller
+# -- Compiling architecture RTL of memory_bus_controller
+# End time: 17:43:01 on Apr 30,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:43:01 on Apr 30,2023
+# vcom -reportprogress 300 -2008 -work work C:/Users/kzhan/Documents/Spring 2023/ECE Comp Arch/Lab 6/ram_6116.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity ram_6116
+# -- Compiling architecture rtl of ram_6116
+# End time: 17:43:01 on Apr 30,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:43:01 on Apr 30,2023
+# vcom -reportprogress 300 -2008 -work work C:/Users/kzhan/Documents/Spring 2023/ECE Comp Arch/Lab 6/rom_27c64.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity rom_27C64
+# -- Compiling architecture rtl of rom_27C64
+# End time: 17:43:01 on Apr 30,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:43:01 on Apr 30,2023
+# vcom -reportprogress 300 -2008 -work work C:/Users/kzhan/Documents/Spring 2023/ECE Comp Arch/Lab 6/BasicRISCCPUTestbench.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity BasicRISCCPUTestbench
+# -- Compiling architecture bdf_type of BasicRISCCPUTestbench
+# End time: 17:43:01 on Apr 30,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+do RunTests.do
+# vsim work.basicrisccputestbench 
+# Start time: 17:44:18 on Apr 30,2023
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.basicrisccputestbench(bdf_type)
+# Loading ieee.numeric_std(body)
+# Loading work.ram_6116(rtl)
+# Loading work.rom_27c64(rtl)
+# Loading work.cpu(bdf_type)
+# Loading work.controlunit(bdf_type)
+# Loading work.con_logic(rtl)
+# Loading work.control_signals_logic(rtl)
+# Loading work.opcode_decoder(rtl)
+# Loading work.sequencer(rtl)
+# Loading work.shift_control(rtl)
+# Loading work.memory_interface(rtl)
+# Loading work.datapath(bdf_type)
+# Loading work.alu(rtl)
+# Loading work.instruction_register(rtl)
+# Loading work.program_counter(rtl)
+# Loading work.register_file(rtl)
+# Loading work.clock_reset_start(rtl)
+# Loading work.memory_bus_controller(rtl)
+# End time: 17:45:21 on Apr 30,2023, Elapsed time: 0:01:03
+# Errors: 0, Warnings: 0
